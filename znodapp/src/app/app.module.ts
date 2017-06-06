@@ -13,6 +13,7 @@ import { CustomersComponent } from './customers/customers.component';
 import { ContactComponent } from './contact/contact.component';
 import { BookComponent } from './book/book.component';
 import { BookFormComponent } from './book-form/book-form.component';
+import { UsercComponent } from './userc/userc.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BookFormComponent } from './book-form/book-form.component';
     CustomersComponent,
     ContactComponent,
     BookComponent,
-    BookFormComponent
+    BookFormComponent,
+    UsercComponent
   ],
   imports: [
     BrowserModule,
