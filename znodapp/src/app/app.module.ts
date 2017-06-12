@@ -11,6 +11,9 @@ import { FeaturesComponent } from './features/features.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { CustomersComponent } from './customers/customers.component';
 import { ContactComponent } from './contact/contact.component';
+import { BookComponent } from './book/book.component';
+import { BookFormComponent } from './book-form/book-form.component';
+import { UsercComponent } from './userc/userc.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { ContactComponent } from './contact/contact.component';
     FeaturesComponent,
     PricingComponent,
     CustomersComponent,
-    ContactComponent
+    ContactComponent,
+    BookComponent,
+    BookFormComponent,
+    UsercComponent
   ],
   imports: [
     BrowserModule,
